@@ -16,6 +16,7 @@
     font-weight: 700;
     letter-spacing: 1.75px;
     text-transform: uppercase;
+    text-align: center; /* Center text */
     
 }
 .content{
@@ -24,7 +25,7 @@
     align-items: center;
 }
 .aboutImage{
-    width: 35%;
+    width: 23%;
 }
 .aboutItems{
     color: var(--color-text);

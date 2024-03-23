@@ -46,6 +46,10 @@
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
     margin-top: 3%;
 }
+.contactBtn:hover{
+    color: var(--color-primary);
+    background-color: var(--color-text);
+}
 .heroImg{
     width: 24%;
     z-index: 1;
@@ -101,4 +105,13 @@
         align-items: center;
     }
     
+    .heroImg{
+        width: 50%;
+        z-index: 1;
+    
+        animation-name: floating;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
 }
